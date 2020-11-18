@@ -27,7 +27,6 @@ class Contact extends Component {
           <Cell className="contact-grid-cell-right rounded" col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <div className="contact-list">
               <List>
                 <ListItem>
                   <ListItemContent style={{ fontSize: "30px", fontFamily: "Anton" }}>
@@ -45,7 +44,8 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent style={{ fontSize: "30px", fontFamily: "Anton" }}>
-                  <i className="fa fa-linkedin-square" aria-hidden="true" /> linkedin.com/in/kalyan-sai/
+                    <i className="fa fa-linkedin-square" aria-hidden="true" /> 
+                    linkedin.com/in/kalyan-sai/
                   </ListItemContent>
                 </ListItem>
 
@@ -54,10 +54,8 @@ class Contact extends Component {
                     <i className="fa fa-facebook-square" aria-hidden="true" />
                     facebook.com/kalyan.sai.1422/
                   </ListItemContent>
-                </ListItem>
-                
+                </ListItem>   
               </List>
-            </div>
           </Cell>
         </Grid>
         <div style={{textAlign:"center"}}>
