@@ -1,0 +1,94 @@
+.header-color {
+  background: #b92b27;
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  
+  background: linear-gradient(to right, #1565C0, #b92b27);
+}
+.landing-grid {
+  text-align: center;
+  align-content: center;
+}
+.banner-text {
+  background-color: black;
+  opacity: 0.7;
+  width: 75%;
+  margin: auto;
+  padding-top: 8px;
+  border-radius: 10px;
+  padding-bottom: 8px;
+}
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color:white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color:white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid-cell-left {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  color: black;
+  margin-bottom: 20px;
+}
+.contact-grid-cell-right {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  background: #2c3e50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#4ca1af,#2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#4ca1af,#2c3e50);
+  color: black;
+  margin-bottom: 20px;
+}
+.contact-grid-cell-right hr {
+  border-top: 5px double black;
+  width: 50%;
+  margin: auto;
+}
+.contact-list i {
+  font-size: 60px;
+  padding-left: 3rem;
+  padding-top: 0.5rem;
+  padding-right: 3rem;
+}
